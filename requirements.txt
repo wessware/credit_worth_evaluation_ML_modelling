@@ -10,3 +10,4 @@ tensorflow 2.5.0
 keras 2.4.3
 pickle 1.0.2
 jupyter_datatables 0.3.9
+ctgan 0.5.1
