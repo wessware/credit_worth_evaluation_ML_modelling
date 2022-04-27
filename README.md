@@ -19,7 +19,14 @@ Further optimization to be done to improve model accuracy
 
 Alternative ML models to be built to be used to determine if there can be a better score.
 
-On advanced modelling, we use a synthetic data generator to create more data points from the initial dataset
-and assesses the performance of our models on synthetic data.
+## Advancements
 
-The ANN models improves from an rmse score of 0.39 to 0.30
+On advanced modelling, we use a synthetic data generator [GENERATIVE ADVERSARIAL NETWORK] to create more data points from the initial dataset and assesses the performance of our models on this 4000 datapoints synthetic data [this is in comparison to the 600 datapoints original dataset].
+
+ANN rmse (original data) ===> 0.39000127674563323
+ANN rmse (synthetic data) ===> 0.30305234613896836 (88.5%)
+
+SVM  rmse (original data) ===> 0.4472135954999579
+SVM rmse (synthetic data) ===> 0.30276503540974914 (90.8%)
+
+The Support Vector Machine outrightly outperforms the Artificial Neural Network on this test.
